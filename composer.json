@@ -1,0 +1,21 @@
+{
+    "name": "klaravel/db-logger",
+    "description": "Laravel database/sql queries logger.",
+    "license": "MIT",
+    "keywords": ["laravel", "sql", "db", "log", "logger", "db-logger", "sql-logger"],
+    "authors": [
+        {
+            "name": "Keyur Ajmera",
+            "email": "ajmerainfo@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Klaravel\\DbLogger\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
