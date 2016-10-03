@@ -139,10 +139,6 @@ class DbLogger
      */
     protected function saveLog($data, $fileName, $override = false)
     {
-        if (!file_exists($this->directory)) {
-            mkdir($this->directory, 0777, true);
-        }
-
         file_put_contents($this->directory . DIRECTORY_SEPARATOR . $fileName,
             $data, $override ? 0 : FILE_APPEND);
     }

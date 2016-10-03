@@ -3,7 +3,7 @@
 This module allows you to log SQL queries (and slow SQL queries) to log file in Laravel framework. It's useful mainly
 when developing your application to verify whether your queries are valid and to make sure your application doesn't run too many or too slow database queries.
 
-### Installation
+### Installation:
 
 1. Run
    ```php
@@ -40,3 +40,7 @@ when developing your application to verify whether your queries are valid and to
     ```
     
     and adjust values to your needs. If you have also `.env.sample` it's also recommended to add those entries also in `.env.sample` file just to make sure everyone know about those env variables. Be aware that `DB_LOG_DIRECTORY` is directory inside storage directory. If you want you can change it editing `config/dblogger.php` file.
+
+---
+#### Note:
+> Make sure defined `DB_LOG_DIRECTORY` directory should be exists default direcotry is `\storage\logs\db\` else application will throw error.
