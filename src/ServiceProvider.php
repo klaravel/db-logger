@@ -1,9 +1,10 @@
-<?php
-
-namespace Klaravel\DbLogger;
+<?php namespace Klaravel\DbLogger;
 
 use Klaravel\DbLogger\DbLogger;
 
+/**
+ * Laravel service provider for default bind and load things.
+ */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
 	/**

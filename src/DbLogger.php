@@ -1,7 +1,9 @@
-<?php
+<?php namespace Klaravel\DbLogger;
 
-namespace Klaravel\DbLogger;
-
+/**
+ * DbLogger class is helper class to log all database
+ * query into log file.
+ */
 class DbLogger
 {
 	/**
