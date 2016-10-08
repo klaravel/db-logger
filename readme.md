@@ -1,4 +1,9 @@
 ## Database Queries Logger for Laravel 5.3+
+[![Build Status](https://travis-ci.org/klaravel/db-logger.svg)](https://travis-ci.org/klaravel/db-logger)
+[![Total Downloads](https://poser.pugx.org/klaravel/db-logger/d/total.svg)](https://packagist.org/packages/klaravel/db-logger)
+[![Latest Stable Version](https://poser.pugx.org/klaravel/db-logger/v/stable.svg)](https://packagist.org/packages/klaravel/db-logger)
+[![Latest Unstable Version](https://poser.pugx.org/klaravel/db-logger/v/unstable.svg)](https://packagist.org/packages/klaravel/db-logger)
+[![License](https://poser.pugx.org/klaravel/db-logger/license.svg)](https://packagist.org/packages/klaravel/db-logger)
 
 This module allows you to log SQL queries (and slow SQL queries) to log file in Laravel framework. It's useful mainly
 when developing your application to verify whether your queries are valid and to make sure your application doesn't run too many or too slow database queries.
